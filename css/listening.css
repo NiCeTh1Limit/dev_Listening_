@@ -1,0 +1,285 @@
+body {
+    background-color: #F0F0F0;
+}
+button {
+    padding: 0% 1%;
+    margin-left:5%;
+    font-size: 1em;
+    width: auto;
+    height: auto;
+}
+button .btn_menu {
+    margin: 1% 1%;    
+}
+input {
+    font-size: 30px;
+}
+input.CB{
+    width: 30px;
+    height: 30px;
+}
+input.TB{
+    width:100%;
+}
+label{
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}
+form select {
+    font-size: 28px;
+}
+.EMV{
+    margin: 0% 1.5% 0% 0.7%;
+    width: 50px;
+}
+.header{
+    margin: 0% 5%;
+    margin-top: 1%;
+    font-size: 32px;
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    min-width: 1081.450px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+#header_left{
+    text-align:left; 
+    font-size:32px; 
+    font-weight:bold;
+    margin-top:1%; 
+    margin-left: 10%;
+}
+#header_middle{
+    text-align: center;
+}
+#header_right{
+    visibility: hidden;
+}
+.title{
+    margin-top: 3%;
+    font-size:32px; 
+    font-weight:bold; 
+}
+.title .title_topic1{
+    text-align:center;
+}
+.container{
+    margin: 0% 5%;
+    padding: 2% 3%;
+    font-size: 28px;
+    background-color: #FFF;
+    font-weight: bold;
+    height: auto;
+    width: auto;
+}
+.row{
+    margin: 1% 0%;
+}
+.container .row-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.row-1 .col-2{
+    color: blueviolet;
+}
+.row-2 .column{
+    margin: 0.5% 0% 0.5% 10%;
+}
+.container_test{
+    margin: 0% 5%;
+    padding: 2% 3%;
+    font-size: 32px;
+    background-color: #FFF;
+    font-weight: bold;
+    height: 80vh;
+    width: auto;
+    min-width: 1026.180px;
+    min-height: 490.875px;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+.container_test .column{
+    text-align: center;
+}
+.container_test .col-1 {    
+    bottom: 0px;
+    left: 0px;
+    position: relative;
+}
+.container_test .test{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.test .img{
+    width:100%;
+    height: 45%;
+}
+.test .img_row{
+    padding: 10px 10px;
+}
+.test .img input{
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 400px;
+    /* background-size: cover; */
+    background-position:  center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.btn_zone {
+
+    position: fixed;  /*固定在網頁上不隨卷軸移動，若要隨卷軸移動用absolute*/
+
+    top: 50%;  /*設置垂直位置*/
+
+    left: 82%;  /*設置水平位置，依所放的內容多寡需要自行手動調整*/
+
+    /*background: blueviolet;  /*背景顏色*/
+
+    padding: 10px 20px;
+
+    border-radius: 10px;  /*圓角*/
+
+    -moz-border-radius: 10px;
+
+    -webkit-border-radius: 10px;
+
+    z-index: 2;
+}
+
+.img_row{
+    padding: 10px 10px;
+}
+.img input{
+    width: 390.4px;
+    height: 259.2px;
+    background-size: cover;
+}
+
+.container_result{    
+    margin: 0% 5%;
+    padding: 2% 3%;
+    font-size: 32px;
+    background-color: #FFF;
+    font-weight: bold;
+    height: auto;
+    width: auto;
+    padding: 5% 2%;
+}
+.container_result table{
+    font-size: 24px;
+    text-align: center;
+    table-layout:fixed;
+}
+.container_result .row-score table{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+}
+.container_result .row-score table .td_fool{
+    width: 26%;
+}
+.container_result .row-btn .div_left{
+    width: 25%;
+    float: left;
+}
+.container_result .row-btn .div_right{
+    width: 25%;
+    float: right;
+}
+.div_left button{
+    float: right;
+    height: 60px;
+}
+.div_right button{
+    float: left;
+    height: 60px;
+}
+.container_print{    
+    position: absolute;
+    margin: 0 1cm;
+    padding: 4% 6%;
+    font-size: 18pt;
+    background-color: #FFF;
+    
+    box-shadow: 0px 0px 3px 2px #000000;
+    /*height: 919.519816px;
+    width: 590.70088px;*/
+    height: auto;
+    width: auto;
+    /*height: 29.7cm;
+    width: 21cm;*/
+}
+.container_print .print_header{
+    
+    position:absolute; 
+    top: -0.5cm;
+    left: 4.7cm;
+    width: 9cm;
+    height: 1cm;
+    text-align: center;
+    font-weight: bold;
+    font-size: 21pt;
+    background-color: #FFF;
+}
+.container_print .print_tester{
+    border: 1.2px black solid;
+    padding: 0.2% 0.1%;
+    position: absolute;
+    line-height: 0.5cm;
+    top: -0.5cm;
+    right: -0.5cm;
+    width: 5cm;
+    height: 1cm;
+    font-size: 10.5pt;
+    background-color: #FFF;
+    text-align: center;
+    padding-bottom: 0.2cm;
+}
+.container_print .row_result{
+    margin-bottom: 3.5cm;
+}
+.container_print .row_result ul{
+    list-style: none;
+    display:inline-block;
+}
+.container_print .row_result .list_1::before{
+    content: "1.\2192 ";
+}
+.container_print .row_result .list_2::before{
+    content: "2.\2192 ";
+}
+
+.container_print .row_standard table ul{
+    margin-top: 0%;
+}
+.container_print .row_standard td{
+    padding: 2% 1.75%;
+}
+.container_print .row_standard li::before{
+    content: "\2192";
+    margin-left: -7px;
+}
+
+.container_print .row_result .div_chart{
+    position: absolute;
+    top: auto;
+    right: 4%;
+    width: 6cm;
+    height: 5cm;
+}
+@page { size: A4 portrait; margin:0;}
+@media print{
+    body{
+        background-color: #FFF;
+    }
+    .no_print{
+        display: none;
+    }
+}
